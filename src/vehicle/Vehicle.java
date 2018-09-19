@@ -47,8 +47,9 @@ public class Vehicle {
     public void drive() {
         drive(1);  //Dit roept
     }              //
-                    //
-                    //deze methode aan
+
+    //
+    //deze methode aan
     public void drive(int miles) {
         System.out.println("Driving (" + miles + " mile(s))");
         addMileage(miles);  //Het aantal gereden KM/mile wordt middels een andere methode (addMileage) verhoogd en opgeslagen in de instantie variabele.
